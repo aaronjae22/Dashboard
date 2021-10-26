@@ -380,3 +380,59 @@ nav .search-box .bx-search{
     color: #333;
 }
 
+/* -- Responsive Media Query -- */
+@media (max-width: 1240px) {
+
+    .sidebar{
+        width: 60px;
+    }
+
+    .sidebar.active{
+        width: 220px;
+    }
+
+    .home-section{
+        width: calc(100% - 60px);
+        left: 60px;
+    }
+
+    .sidebar.active ~ .home-section{
+        overflow: hidden;
+        left: 220px;
+    }
+
+    .home-section nav{
+        width: calc(100% - 60px);
+        left: 60px;
+    }
+
+    .sidebar.active ~ .home-section nav {
+        width: calc(100% - 220px);
+        left: 220px;
+    }
+}
+
+
+@media (max-width: 1150px) {
+
+    .home-content .real-estate-boxes {
+        flex-direction: column;
+    }
+
+    .home-content .real-estate-boxes .box {
+        width: 100%;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+    }
+
+    .home-content .real-estate-boxes .top-words{
+        margin: 0;
+    }
+}
+  
+@media (max-width: 1000px) {
+    .overview-boxes .box{
+        width: calc(100% / 2 - 15px);
+        margin-bottom: 15px;
+    }
+}
