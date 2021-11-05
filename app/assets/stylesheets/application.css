@@ -223,6 +223,7 @@ nav .search-box .bx-search{
     font-weight: 500;
 }
 
+/*
 .home-content .box .indicator{
     display: flex;
     align-items: center;
@@ -247,6 +248,7 @@ nav .search-box .bx-search{
 .home-content .box .indicator .text{
     font-size: 12px;
 }
+*/
 
 .home-content .box .cart{
     display: inline-block;

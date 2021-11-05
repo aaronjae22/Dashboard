@@ -38,3 +38,6 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Ignore Aaron Ayerdis Espinoza' assignment txt file.
+/app/Asignaciones.txt

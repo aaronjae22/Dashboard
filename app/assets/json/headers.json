@@ -1,0 +1,26 @@
+{
+    "rent": {
+        "quantity": "Properties Rent",
+        "price": {
+            "avg": "Average price sales",
+            "max": "Maximum price sales",
+            "min": "Minimun price sales",
+            "currency": "USD"
+        },
+        "type": "Rents"
+
+
+    },
+
+    "sale": {
+        "quantity": "Properties Sale",
+        "price": {
+            "avg": "Average price sales",
+            "max": "Maximum price sales",
+            "min": "Minimun price sales",
+            "currency": "USD"
+        },
+        "type": "Sales"
+    }
+}
+
