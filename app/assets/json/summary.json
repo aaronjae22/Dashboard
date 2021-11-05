@@ -1,0 +1,22 @@
+{
+    "rent": {
+        "count": 1023,
+        "price" :{
+            "avg": 550,
+            "max": 1200,
+            "min": 100,
+            "currency": "USD"
+        }
+    },
+
+    "sale": {
+        "count": 1540,
+        "price": {
+            "avg": 55000,
+            "max": 500000,
+            "min": 30000,
+            "currency": "USD"
+        }
+    }
+}
+
